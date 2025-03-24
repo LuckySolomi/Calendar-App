@@ -1,0 +1,98 @@
+.container {
+  font-family: "Inter", sans-serif;
+  color: #323749;
+}
+
+.grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  grid-auto-rows: 100px;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
+
+.emptyCell {
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+.dateHeader {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: white;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.dateContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 60px;
+  border-radius: 8px;
+  background: #dff5e2;
+}
+
+.selectedDate {
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.hourCell {
+  border: 1px solid #ccc;
+  background-color: white;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.cell {
+  width: 980px;
+  border: 1px solid #ccc;
+  background: white;
+}
+
+.event {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  right: 5px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: #323749;
+}
+
+h1 {
+  margin: 0;
+}
+
+.eventDescription {
+  font-size: 12px;
+  margin-top: 5px;
+  color: #323749;
+}
+
+.currentTimeLine {
+  position: absolute;
+  left: 100px;
+  right: 0;
+  height: 2px;
+  border-radius: 1px;
+  background-color: #ff5620;
+  z-index: 20;
+}
+
+.currentTimeLine:before {
+  display: block;
+  content: "";
+  width: 6px;
+  height: 6px;
+  background: #ff5620;
+  border-radius: 50%;
+  margin-top: -2px;
+  margin-left: -3px;
+}

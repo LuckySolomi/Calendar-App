@@ -1,0 +1,40 @@
+.sideBarCalendarCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 224px;
+  height: 30px;
+  padding: 10px;
+  margin-top: 5px;
+  border: 0;
+  background: white;
+  border-radius: 8px;
+}
+
+.sideBarCalendarCard:hover {
+  background: #f6f7f8;
+}
+
+.checkboxAndTextContainer {
+  display: flex;
+  align-items: center;
+}
+
+.iconsContainer {
+  display: flex;
+  align-items: center;
+  opacity: 0;
+}
+
+.sideBarCalendarCard:hover .iconsContainer {
+  opacity: 1;
+}
+
+.cardTitle {
+  width: 140px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

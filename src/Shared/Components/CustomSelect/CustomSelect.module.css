@@ -1,0 +1,103 @@
+.customSelectContainer {
+  position: relative;
+  width: auto;
+  font-family: "Inter", sans-serif;
+}
+
+.customSelect {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #dedfe5;
+  border-radius: 8px;
+  background-color: white;
+  color: #323749;
+  font-weight: 400;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.customSelect:hover {
+  background: #efefef;
+}
+
+.placeholder {
+  color: #737373;
+}
+
+.customSelect.open {
+  background: #dedfe5;
+}
+
+.customOptions {
+  position: absolute;
+  z-index: 10;
+  top: 100%;
+  left: 0;
+  right: 0;
+  max-height: 200px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #dedfe5;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  list-style: none;
+  overflow-y: auto;
+  background: white;
+}
+
+.customOption {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: #323749;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.choosenOption {
+  display: flex;
+  align-items: center;
+}
+
+.customOption:hover {
+  background: #efefef;
+}
+
+.customOption.selected {
+  background: #dedfe5;
+}
+
+.customOption.selected:hover {
+  background: #dedfe5;
+}
+
+.arrowIcon {
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  color: #323749;
+}
+
+.disabled {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.calendarColor {
+  width: 16px;
+  height: 16px;
+  border: 0;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.customLabel {
+  display: block;
+  font-weight: 700;
+  font-size: 10px;
+  color: #323749;
+  margin-bottom: 5px;
+}

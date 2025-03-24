@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f2f5f7;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+}
+
+.contentContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContainer {
+  display: flex;
+  flex-shrink: 0;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3rem 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+}

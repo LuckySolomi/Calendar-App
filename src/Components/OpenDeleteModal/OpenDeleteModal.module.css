@@ -1,0 +1,14 @@
+.calendarDeleteModalBtnsContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 180px;
+  margin-top: 15px;
+  margin-left: auto;
+}
+
+.lenghtOfTitle {
+  display: -webkit-box;
+  max-width: 440px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

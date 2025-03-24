@@ -1,0 +1,51 @@
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  width: 310px;
+}
+
+.sideBarButton {
+  width: 240px;
+}
+
+.sideBarCalendarContainer {
+  width: 240px;
+  padding: 10px;
+  margin-top: 1rem;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px 0px #0000001a;
+  background: #ffffff;
+}
+
+.sideBarCalendarHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.plusIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.plusIcon svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.CalendarModalButtonContainer {
+  margin-top: 20px;
+  margin-left: 205px;
+}
+
+.sideBarCalendarMain{
+  margin-top: 10px;
+}

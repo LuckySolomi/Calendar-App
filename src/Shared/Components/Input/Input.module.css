@@ -1,0 +1,66 @@
+.label {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.labelTextContainer {
+  display: flex;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  color: #323749;
+}
+
+input {
+  width: 230px;
+  height: 15px;
+  padding: 10px;
+  padding-right: 45px;
+  border: 0;
+  border-bottom: 1px solid #737373;
+  outline: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+input:focus {
+  border: 0;
+  border-bottom: 1px solid #323749;
+  outline: none;
+}
+
+.inputError {
+  border-color: #ff5620;
+}
+
+.errorMessage {
+  margin-top: 4px;
+  color: #ff5620;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.eye {
+  position: absolute;
+  right: 8px;
+  margin-top: 11%;
+  transform: translateY(-50%);
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+input:disabled,
+button:disabled {
+  background-color: white;
+  color: #737373;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.disabledLabel {
+  color: #737373 !important;
+}

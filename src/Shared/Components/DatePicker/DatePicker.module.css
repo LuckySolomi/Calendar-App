@@ -1,0 +1,95 @@
+.datePicker {
+  width: 240px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 1rem;
+  box-shadow: 0px 4px 4px 0px #0000001a;
+  font-family: "Inter", sans-serif;
+  background: #ffffff;
+  color: #323749;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.header button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  font-weight: 700;
+  font-size: 15px;
+  background: #ffffff;
+  color: #323749;
+  cursor: pointer;
+}
+
+.header button:hover {
+  background: #ddd;
+}
+
+.weekdays,
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.day,
+.empty {
+  flex: 1 0 calc(100% / 7);
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.weekday {
+  margin-left: 5px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.day {
+  width: 24px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.day:hover {
+  background: #ddd;
+}
+
+.selected {
+  font-weight: 700;
+  font-size: 12px;
+  background: #00ae1c;
+  color: white;
+}
+
+.empty {
+  visibility: hidden;
+}
+
+.day.disabled {
+  color: #ccc !important;
+  cursor: not-allowed;
+}
+
+.disabled.day:hover {
+  background: #ffffff;
+}

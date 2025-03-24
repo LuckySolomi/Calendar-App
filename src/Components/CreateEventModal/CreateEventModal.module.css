@@ -1,0 +1,97 @@
+.sideBarEventModal {
+  width: 520px;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.longInputEventModal {
+  width: 450px;
+  padding: 15px;
+}
+
+.dateAndTimeContainer {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.dateInputEventModal {
+  position: relative;
+  width: 230px;
+  padding: 15px;
+  padding-right: 0;
+  margin-top: 5px;
+}
+
+.datePickerContainer {
+  position: absolute;
+  top: 170px;
+  left: 45px;
+  z-index: 10;
+}
+
+.heroIcon {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  flex-shrink: 0;
+  max-width: 16px;
+  max-height: 16px;
+}
+
+.timeSelectContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+}
+
+.timeSelectSpan {
+  margin: 0 10px;
+}
+
+.checkboxSelectModalContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+}
+
+.modalSelect {
+  border: 0;
+  border-bottom: 1px solid #737373;
+  border-radius: 0;
+}
+
+.chooseCalendarModalContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.modalSelectCalendar {
+  justify-content: space-between;
+  width: 450px;
+  border: 0;
+  border-bottom: 1px solid #737373;
+  border-radius: 0;
+}
+
+.textAreaContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.saveModalButton {
+  margin-top: 20px;
+  margin-left: auto;
+}

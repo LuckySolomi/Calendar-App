@@ -1,0 +1,23 @@
+.link {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-size: 15px;
+  text-decoration: none;
+  color: #00ae1c;
+  cursor: pointer;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.active {
+  color: #0cd52b;
+  text-decoration: underline;
+}
+
+.inactive {
+  color: #575d58;
+  pointer-events: none;
+  cursor: not-allowed;
+}

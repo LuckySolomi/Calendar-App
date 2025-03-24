@@ -1,0 +1,50 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  min-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  padding: 20px 0;
+  box-shadow: 0px 4px 4px 0px #0000001a;
+  background: white;
+  z-index: 100;
+}
+
+.contentContainer {
+  width: 1565px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.currentDataContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 585px;
+}
+
+.usernameContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 255px;
+}
+
+.headerUserBtn {
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.arrowButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 36px;
+}

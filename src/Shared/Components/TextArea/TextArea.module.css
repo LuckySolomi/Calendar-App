@@ -1,0 +1,22 @@
+.textArea {
+  width: 440px;
+  border-bottom: 1px solid #737373;
+  font-family: "Inter", sans-serif;
+  color: #323749;
+  outline: none;
+}
+
+.textArea:focus {
+  border: 0;
+  border-bottom: 1px solid #323749;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 10px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 15px;
+}

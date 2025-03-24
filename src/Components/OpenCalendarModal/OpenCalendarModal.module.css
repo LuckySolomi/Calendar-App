@@ -1,0 +1,27 @@
+.sideBarCalendarModal {
+  width: 294px;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.inputInCalendarModal {
+  width: 235px;
+  height: 15px;
+  padding: 15px;
+}
+
+.colorContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.saveModalButtonContainer {
+  margin-top: 20px;
+  margin-left: auto;
+}

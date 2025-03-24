@@ -1,0 +1,80 @@
+.timeSelectContainer {
+  position: relative;
+  width: 250px;
+  font-family: "Inter", sans-serif;
+}
+
+.timeLabel {
+  display: block;
+  font-weight: 700;
+  font-size: 10px;
+  color: #323749;
+  margin-bottom: 5px;
+}
+
+.timeSelect {
+  width: 85px;
+  padding: 6px;
+  border: 0;
+  border-bottom: 1px solid #737373;
+  background: white;
+  color: #323749;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.timeSelect:hover {
+  background: #efefef;
+}
+
+.placeholder {
+  font-family: "Inter", sans-serif;
+
+  font-size: 15px;
+  font-weight: 400;
+  color: #dedfe5;
+}
+
+.timeOptions {
+  position: absolute;
+  z-index: 10;
+  top: 100%;
+  left: 0;
+  right: 0;
+  width: 120px;
+  max-height: 200px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #dedfe5;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  font-weight: 400;
+  font-size: 15px;
+  background-color: white;
+  list-style: none;
+  overflow-y: auto;
+}
+
+.timeOption {
+  padding: 10px;
+  color: #323749;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.timeOption:hover {
+  background: #efefef;
+}
+
+.timeOption.selected {
+  background: #dedfe5;
+}
+
+.timeSelectContainer.disabled {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.placeholder {
+  color: #737373;
+}

@@ -1,0 +1,79 @@
+.modalContent {
+  position: relative;
+  margin: 10px 0;
+  font-family: "Inter", sans-serif;
+  color: #323749;
+}
+
+.heroIcon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  flex-shrink: 0;
+  max-width: 16px;
+  max-height: 16px;
+}
+
+.editAndDeleteIconsContainer {
+  position: absolute;
+  top: -47px;
+  right: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40px;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  margin: 10px 0;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.dateAndTimeContainer {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.repeatEvent {
+  margin-left: 26px;
+}
+
+.calendarContainer {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.calendarCard {
+  display: flex;
+  align-items: center;
+}
+
+.calendarColor {
+  width: 16px;
+  height: 16px;
+  border: 0;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.textAreaContainer {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.title,
+.eventDescription {
+  max-width: 410px;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow: visible;
+}
