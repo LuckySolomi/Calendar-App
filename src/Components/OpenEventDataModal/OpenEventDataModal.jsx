@@ -11,7 +11,7 @@ import {
   ClockIcon,
   CalendarDaysIcon,
 } from "@heroicons/react/24/outline";
-import styles from "./openEventDataModal.module.css";
+import styles from "./OpenEventDataModal.module.css";
 
 function OpenEventDataModal({
   event,
