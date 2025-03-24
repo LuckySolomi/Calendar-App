@@ -57,7 +57,7 @@ function Header() {
     <header className={styles.header}>
       <div className={styles.contentContainer}>
         <div className={styles.currentDataContainer}>
-          <img src="./img/Logo.svg" alt="logo" />
+          <img src="../img/Logo.svg" alt="logo" />
           <Button variant="primary" onClick={handleTodayClick}>
             Today
           </Button>
@@ -85,7 +85,7 @@ function Header() {
           />
           <p>Username</p>
           <button className={styles.headerUserBtn}>
-            <img src="./img/username.svg" alt="username" />
+            <img src="../img/username.svg" alt="username" />
           </button>
         </div>
       </div>
